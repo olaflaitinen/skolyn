@@ -64,28 +64,7 @@ const solutionFeatures = [
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-background">
-      {/* Header */}
-      <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
-        <div className="container flex h-16 items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">S</span>
-            </div>
-            <span className="font-bold text-xl">Skolyn</span>
-          </div>
-          <nav className="hidden md:flex items-center gap-6">
-            <a href="#platform" className="text-sm font-medium hover:text-primary transition-colors">Platform</a>
-            <a href="#technology" className="text-sm font-medium hover:text-primary transition-colors">Technology</a>
-            <a href="#solutions" className="text-sm font-medium hover:text-primary transition-colors">Solutions</a>
-            <a href="#resources" className="text-sm font-medium hover:text-primary transition-colors">Resources</a>
-          </nav>
-          <div className="flex items-center gap-3">
-            <Button variant="ghost" size="sm">Sign In</Button>
-            <Button size="sm">Request Demo</Button>
-          </div>
-        </div>
-      </header>
+    <Layout>
 
       {/* Hero Section */}
       <section className="relative overflow-hidden">
