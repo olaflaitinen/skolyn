@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { TrustBadge } from '@/components/ui/trust-badge'
+import { SkolynLogo } from '@/components/ui/logo'
 
 const footerSections = {
   platform: {
