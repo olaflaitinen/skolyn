@@ -25,7 +25,7 @@ const navigation = {
     items: [
       { title: 'XAI Technology', href: '/platform#xai', description: 'Explainable AI for medical imaging' },
       { title: 'Integration', href: '/platform#integration', description: 'Seamless PACS & RIS integration' },
-      { title: 'Security', href: '/platform#security', description: 'HIPAA & GDPR compliance' },
+      { title: 'Security & Compliance', href: '/platform/security-and-compliance', description: 'HIPAA & GDPR compliance' },
     ]
   },
   technology: {
@@ -33,6 +33,7 @@ const navigation = {
     href: '/technology',
     description: 'Deep dive into our AI technology',
     items: [
+      { title: 'Explainable AI', href: '/technology/explainable-ai', description: 'Transparent AI decision-making' },
       { title: 'AI Models', href: '/technology#models', description: 'Our diagnostic AI models' },
       { title: 'Data Pipeline', href: '/technology#pipeline', description: 'Secure data processing' },
       { title: 'Research', href: '/technology#research', description: 'Latest research & publications' },
@@ -55,8 +56,18 @@ const navigation = {
     items: [
       { title: 'Blog', href: '/resources/blog', description: 'Latest insights & updates' },
       { title: 'Case Studies', href: '/resources/case-studies', description: 'Real-world implementations' },
-      { title: 'Whitepapers', href: '/resources/whitepapers', description: 'Technical documentation' },
+      { title: 'White Papers', href: '/resources/white-papers', description: 'Technical documentation' },
       { title: 'Webinars', href: '/resources/webinars', description: 'Educational content' },
+    ]
+  },
+  company: {
+    title: 'Company',
+    href: '/company',
+    description: 'Learn about Skolyn',
+    items: [
+      { title: 'About Us', href: '/company/about-us', description: 'Our mission and team' },
+      { title: 'Careers', href: '/company/careers', description: 'Join our team' },
+      { title: 'Press & Media', href: '/company/press-and-media', description: 'News and media resources' },
     ]
   }
 }
