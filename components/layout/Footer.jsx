@@ -56,11 +56,8 @@ export function Footer() {
         <div className="grid lg:grid-cols-6 gap-8">
           {/* Logo and Description */}
           <div className="lg:col-span-2">
-            <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">S</span>
-              </div>
-              <span className="font-bold text-xl">Skolyn</span>
+            <Link href="/" className="flex items-center mb-4">
+              <SkolynLogo />
             </Link>
             <p className="text-sm text-muted-foreground mb-6 max-w-xs">
               Augmenting diagnostic excellence through transparent AI technology. 
