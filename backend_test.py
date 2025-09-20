@@ -253,7 +253,7 @@ def test_blog_api_post():
         "authorRole": "Emergency Medicine Director",
         "category": "Emergency Medicine",
         "tags": ["AI", "Emergency Medicine", "Diagnostics"],
-        "featured": false,
+        "featured": False,
         "slug": "ai-diagnostic-accuracy-emergency-medicine",
         "readTime": "5 min read"
     }
